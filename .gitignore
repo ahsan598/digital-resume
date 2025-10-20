@@ -1,0 +1,17 @@
+# ===== Logs and System Files =====
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*.pid
+
+# ===== OS Specific & Misc =====
+.DS_Store
+.cache/
+dist/
+build/
+
+# ===== IDEs =====
+.vscode/
+.idea/
