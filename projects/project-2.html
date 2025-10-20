@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project-2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/main.css">
+    </head>
+    <body>
+        <div id="container--main">
+            <a href="/index.html">&#x2190; Go Back</a>
+            <h1>Lift & Shift Migration of Web Application to AWS Cloud</h1>
+
+            <ul>
+                <li><a href="/assets/project-imgs/aws-liftshift-webapp.png">Live Demo</a></li>
+                <li><a href="https://github.com/ahsan598/aws-cloud-projects/tree/main/project-3">Source code</a></li>
+            </ul>
+            <p>This project involved migrating an on-premises web application to the AWS Cloud using a Lift & Shift approach to improve scalability, performance, and availability with minimal application changes. The solution was architected within a custom VPC, leveraging EC2 for compute, RDS for the database, and S3 + CloudFront for static content delivery.</p>
+            
+            <p>An Application Load Balancer (ALB) and Auto Scaling Groups (ASG) were configured to ensure high availability and automatic scaling during traffic spikes. IAM policies were implemented for secure access control, while Route 53 handled DNS management and domain routing. The application integrated RabbitMQ for message queuing and Memcached for caching, ensuring faster data access and improved throughput. Infrastructure provisioning was fully automated using Terraform and Ansible, enabling repeatable deployments across environments.</p>
+
+            <ul>
+                <li>Rehosted legacy web application to AWS Cloud with zero code refactoring.</li>
+                <li>Deployed scalable architecture using VPC, EC2, RDS, S3, ALB, and ASG for high availability.</li>
+                <li>Integrated RabbitMQ and Memcached to optimize asynchronous processing and caching performance.</li>
+                <li>Automated provisioning and configuration using Terraform and Ansible for consistent deployments.</li>
+                <li>Secured infrastructure with fine-grained IAM roles and centralized DNS via Route 53.</li>
+            </ul>
+        </div>
+    </body>
+</html>

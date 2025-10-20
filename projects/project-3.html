@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project-3</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/main.css">
+    </head>
+    <body>
+        <div id="container--main">
+            <a href="/index.html">&#x2190; Go Back</a>
+            <h1>Continuous Integration & Deployment of Java App on Kubernetes</h1>
+
+            <ul>
+                <li><a href="/assets/project-imgs/cicd-deploy-javaapp-to-kubernetes.png">Live Demo</a></li>
+                <li><a href="https://github.com/ahsan598/aws-cloud-projects/tree/main/project-3">Source code</a></li>
+            </ul>
+            <p>This project demonstrates the end-to-end automation of building, testing, and deploying a Java application using a robust CI/CD pipeline integrated with Jenkins. Every code commit is automatically validated for quality using SonarQube, followed by building the application with Maven and containerizing it with Docker. The generated Docker images are pushed to a container registry, ensuring version control and traceability.</p>
+            
+            <p>Deployment is automated on a Kubernetes cluster, leveraging manifests and Helm charts for consistent and scalable deployments. Security scanning of Docker images is performed using Trivy to detect vulnerabilities early in the pipeline. Integration with Git enables seamless collaboration and ensures that all changes follow best practices for DevOps workflows. This approach drastically reduces manual intervention, accelerates delivery, and maintains high code quality and reliability in production environments.</p>
+
+            <ul>
+                <li>Automated CI/CD pipeline using Jenkins for building, testing, and deploying Java applications.</li>
+                <li>Integrated code quality checks with SonarQube and automated containerization using Docker.</li>
+                <li>Automated deployment to Kubernetes cluster with Helm charts and manifests for scalability.</li>
+                <li>Security scanning of Docker images with Trivy and version-controlled artifact management via Docker registry.</li>
+                <li>Full Git integration for collaborative development and traceable deployment history.</li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,6 +1,6 @@
 # Digital Resume
 
-An Interactive digital resume with dark mode and responsive design built from my resume.
+An interactive, responsive digital resume website featuring dark mode, smooth navigation, and customizable sections to showcase skills, projects, and work experience.
 
 Live Demo: [View Here](https://ahsan598.github.io/digital-resume/)
 
