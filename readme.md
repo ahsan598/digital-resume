@@ -1,12 +1,11 @@
 # Digital Resume
 
-A personal digital resume website built from my resume.
+An Interactive digital resume with dark mode and responsive design built from my resume.
 
-Live Demo: [View Here](#)
+Live Demo: [View Here](https://ahsan598.github.io/digital-resume/)
 
 
 ## Preview
-
 <img src="/assets/images/dark-mode-preview.png" alt="Digital Resume Demo">
 
 
@@ -31,6 +30,5 @@ Live Demo: [View Here](#)
 - Select Deploy from branch and save.
 - Your live site will be available after a few minutes.
 
----
 
-credits [@divanov11](https://github.com/divanov11)
+<!-- credits [@divanov11](https://github.com/divanov11) -->
