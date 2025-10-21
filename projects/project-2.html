@@ -15,12 +15,13 @@
             <h1>Lift & Shift Migration of Web Application to AWS Cloud</h1>
 
             <ul>
-                <li><a href="../assets/project-imgs/aws-liftshift-webapp.png">Live Demo</a></li>
                 <li><a href="https://github.com/ahsan598/aws-cloud-projects/tree/main/project-3">Source code</a></li>
             </ul>
             <p>This project involved migrating an on-premises web application to the AWS Cloud using a Lift & Shift approach to improve scalability, performance, and availability with minimal application changes. The solution was architected within a custom VPC, leveraging EC2 for compute, RDS for the database, and S3 + CloudFront for static content delivery.</p>
             
             <p>An Application Load Balancer (ALB) and Auto Scaling Groups (ASG) were configured to ensure high availability and automatic scaling during traffic spikes. IAM policies were implemented for secure access control, while Route 53 handled DNS management and domain routing. The application integrated RabbitMQ for message queuing and Memcached for caching, ensuring faster data access and improved throughput. Infrastructure provisioning was fully automated using Terraform and Ansible, enabling repeatable deployments across environments.</p>
+
+            <img src="../assets/project-imgs/aws-liftshift-webapp.png" alt="Not Found" style="display: block; margin: 0 auto; max-width: 100%; height: auto; padding: 10px; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); opacity: 0.95; border: none;">
 
             <ul>
                 <li>Rehosted legacy web application to AWS Cloud with zero code refactoring.</li>
