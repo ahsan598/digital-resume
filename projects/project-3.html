@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Project-3</title>
+        <title>CI/CD</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/theme-switcher.css">
     </head>
     <body>
         <div id="container--main">
@@ -15,7 +16,7 @@
 
             <ul>
                 <li><a href="../assets/project-imgs/cicd-deploy-javaapp-to-kubernetes.png">Live Demo</a></li>
-                <li><a href="https://github.com/ahsan598/aws-cloud-projects/tree/main/project-3">Source code</a></li>
+                <li><a href="https://github.com/ahsan598/cicd-pipeline-projects/tree/main/project-3">Source code</a></li>
             </ul>
             <p>This project demonstrates the end-to-end automation of building, testing, and deploying a Java application using a robust CI/CD pipeline integrated with Jenkins. Every code commit is automatically validated for quality using SonarQube, followed by building the application with Maven and containerizing it with Docker. The generated Docker images are pushed to a container registry, ensuring version control and traceability.</p>
             
@@ -29,5 +30,13 @@
                 <li>Full Git integration for collaborative development and traceable deployment history.</li>
             </ul>
         </div>
+
+        <!-- Theme Switcher -->
+        <div id="theme-switcher">
+            <div class="theme" id="theme-light" data-theme="light"></div>
+            <div class="theme" id="theme-dark" data-theme="dark"></div>
+        </div>
     </body>
+    
+    <script src="../js/theme-switcher.js"></script>
 </html>

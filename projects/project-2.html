@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Project-2</title>
+        <title>AWS-Cloud</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/theme-switcher.css">
     </head>
     <body>
         <div id="container--main">
@@ -25,9 +26,17 @@
                 <li>Rehosted legacy web application to AWS Cloud with zero code refactoring.</li>
                 <li>Deployed scalable architecture using VPC, EC2, RDS, S3, ALB, and ASG for high availability.</li>
                 <li>Integrated RabbitMQ and Memcached to optimize asynchronous processing and caching performance.</li>
-                <li>Automated provisioning and configuration using Terraform and Ansible for consistent deployments.</li>
+                <li>Automated provisioning and configuration using Terraform for consistent deployments.</li>
                 <li>Secured infrastructure with fine-grained IAM roles and centralized DNS via Route 53.</li>
             </ul>
         </div>
+
+        <!-- Theme Switcher -->
+        <div id="theme-switcher">
+            <div class="theme" id="theme-light" data-theme="light"></div>
+            <div class="theme" id="theme-dark" data-theme="dark"></div>
+        </div>
     </body>
+    
+    <script src="../js/theme-switcher.js"></script>
 </html>
