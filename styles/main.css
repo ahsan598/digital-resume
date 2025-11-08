@@ -17,7 +17,6 @@
 }
 
 
-
 *{
     font-family: 'Readex Pro';
     line-height: 1.5em;
@@ -157,6 +156,44 @@ li{
 }
 
 
+@media(max-width:600px){
+
+    #container--main{
+        padding: 1em;
+    }
+
+    #wrapper--hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5em;
+    }
+
+    #profile-pic{
+        width: 120px;
+        height: 120px;
+    }
+
+    #user-name{
+        font-size: 32px;
+    }
+
+    #socials--list{
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    .card--work-history,
+    .card--education {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    #wrapper--techstack__items{
+        justify-content: center;
+    }
+}
+
+
 /* @media(max-width:600px){
 
     .section--page{
@@ -190,41 +227,3 @@ li{
     padding-left: 0;
     }
 } */
-
-
-@media(max-width:600px){
-
-    #container--main{
-        padding: 1em;
-    }
-
-    #wrapper--hero{
-        flex-direction: column;
-        text-align: center;
-        gap: 1.5em; /* gap kam kar diya */
-    }
-
-    #profile-pic{
-        width: 120px;
-        height: 120px;
-    }
-
-    #user-name{
-        font-size: 32px;
-    }
-
-    #socials--list{
-        justify-content: center;
-        gap: 0.5em;
-    }
-
-    .card--work-history,
-    .card--education {
-        border-left: none;
-        padding-left: 0;
-    }
-
-    #wrapper--techstack__items{
-        justify-content: center;
-    }
-}
