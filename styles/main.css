@@ -157,7 +157,7 @@ li{
 }
 
 
-@media(max-width:600px){
+/* @media(max-width:600px){
 
     .section--page{
         padding-top: 1em;
@@ -188,5 +188,43 @@ li{
     .card--education--no-border {
     border-left: none;
     padding-left: 0;
+    }
+} */
+
+
+@media(max-width:600px){
+
+    #container--main{
+        padding: 1em;
+    }
+
+    #wrapper--hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5em; /* gap kam kar diya */
+    }
+
+    #profile-pic{
+        width: 120px;
+        height: 120px;
+    }
+
+    #user-name{
+        font-size: 32px;
+    }
+
+    #socials--list{
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    .card--work-history,
+    .card--education {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    #wrapper--techstack__items{
+        justify-content: center;
     }
 }
